@@ -1,0 +1,82 @@
+body{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	min-height: 100vh;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin: 0;
+}
+
+header{
+	height: 100px;
+	width: 100%;
+	background-color: orange;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+header P{
+	font-size: 2rem;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+/* SECCION */
+
+.contenedor{
+	  -webkit-box-flex: 1;
+	      -ms-flex: 1;
+	          flex: 1;
+	  background-color: skyblue;
+}
+
+.contenedor h1{
+	text-align: center;
+}
+
+.contenedor form{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 20px;
+}
+
+.contenedor form textarea::-webkit-input-placeholder{
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+/* FOOTER */
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: purple;
+}
+
+.footer p{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.centrar{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
